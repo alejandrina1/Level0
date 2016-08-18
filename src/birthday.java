@@ -10,12 +10,12 @@ public class birthday {
 		String myBirthday = "Febuary 6th";
 
 		// 2. Find out which birthday the user wants and and store their response in a variable
-String anyBirthday= JOptionPane.showInputDialog(null,"Who's birthday do you want to know about?");
+String answer= JOptionPane.showInputDialog(null,"Who's birthday do you want to know about?");
 		// 3. Print out what the user typed
-System.out.println(anyBirthday);
+System.out.println(answer);
 		// 4. if user asked for "mom"
 		// print mom's birthday
-
+if(answer.equals("mom")){
 		// 5. if user asked for "dad"
 		// print dad's birthday
 		// 6. if user asked for your name
